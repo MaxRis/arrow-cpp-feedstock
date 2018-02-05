@@ -8,7 +8,7 @@ package:
 
 
 source:
-  fn: {{ commit }}.tar.gz
+  fn: {{ commit }}.tar.gz  
   url: https://github.com/apache/arrow/archive/{{ commit }}.tar.gz
   sha256: {{ checksum }}
 
